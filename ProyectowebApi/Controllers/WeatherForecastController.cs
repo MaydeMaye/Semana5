@@ -130,8 +130,9 @@ namespace ProyectowebApi.Controllers
         public int DevolverAlumno()
         {
             string mensaje = string.Empty;
-            Alumno Alumno1 = new Alumno();
+      
             Alumno Alumno3 = new Alumno("Delia", "Alava", "63154219", new DateTime(2005, 5, 14));
+            string numero = "siete";
             return Alumno3.DevolverEdad();
         }
     }
